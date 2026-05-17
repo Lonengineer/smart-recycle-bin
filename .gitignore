@@ -18,9 +18,6 @@ __pycache__/
 # This gets recreated by demo_runner.py anyway
 test_folder/
 
-# --- Temp output files from the screenshots step ---
-screenshots/step1_watch_*.txt
-
 # --- OS clutter ---
 .DS_Store
 Thumbs.db

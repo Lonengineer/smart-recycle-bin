@@ -103,13 +103,6 @@ Expected output phases:
 6. Display vault history
 7. Rollback and verify restored content
 
----
-
-## 📸 Screenshots
-
-| Demo Terminal Output | Project Architecture |
-|---|---|
-| ![demo](screenshots/demo_output.png) | ![structure](screenshots/project_structure.png) |
 
 ---
 
