@@ -1,0 +1,38 @@
+# Smart Recycle Bin — .gitignore
+# --------------------------------
+# We don't want to push backups, cache files, or the test folder to GitHub.
+# Those are all generated at runtime and would just pollute the repo.
+
+# --- Python cache ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# --- The vault (all generated backup data) ---
+# Any .my_vault directory anywhere in the project
+**/.my_vault/
+
+# --- The test folder we use for demos ---
+# This gets recreated by demo_runner.py anyway
+test_folder/
+
+# --- Temp output files from the screenshots step ---
+screenshots/step1_watch_*.txt
+
+# --- OS clutter ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- IDE / editor ---
+.vscode/settings.json
+.idea/
+*.swp
+*~
+
+# --- Virtual environments (just in case) ---
+venv/
+.env/
+env/
