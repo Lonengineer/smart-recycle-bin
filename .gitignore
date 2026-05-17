@@ -36,3 +36,6 @@ desktop.ini
 venv/
 .env/
 env/
+
+# --- Local-only files (not for GitHub) ---
+PROJE_RAPORU.md
