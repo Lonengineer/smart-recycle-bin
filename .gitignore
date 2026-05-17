@@ -36,3 +36,7 @@ env/
 
 # --- Local-only files (not for GitHub) ---
 PROJE_RAPORU.md
+screenshots/
+test_adim_adim.py
+deneme_klasoru/
+
