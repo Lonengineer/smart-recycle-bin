@@ -8,6 +8,6 @@
 # Dot-prefix convention makes it feel properly hidden (at least on Unix).
 VAULT_DIR_NAME = ".my_vault"
 
-# Polling interval in seconds. 2s is a sweet spot — responsive but not
-# burning through unnecessary CPU cycles.
-POLL_INTERVAL = 2
+# POLL_INTERVAL was here before — removed after switching to event-driven monitoring.
+# The new watcher.py uses ReadDirectoryChangesW (OS-level) so we no longer need
+# to define a polling frequency at all.
